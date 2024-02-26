@@ -3,44 +3,26 @@
 # author: "Hossein Dehban_Feb 2024"
 
 # Step1: Install Python
-
   # Install python on your system: (https://www.python.org/)
-
   # Step2: Install R and Rstudio
-
   # Install R on your system: (https://www.r-project.org/)
-
   # Install Rstudio on your system: (https://posit.co/download/rstudio-desktop/)
-
   #! Installing essential libraries in R ( from CRAN Repository or other methods)
-
 # Step3: Setting the Python path in Rstudio
-
-#! Open Rstudio —> Tools —> Global Options —> click python(left menu bar) —>
-
+   #! Open Rstudio —> Tools —> Global Options —> click python(left menu bar) —>
 # Set python interpreter :
-
-
 # -----Install python module (library)------------------------
-
 # A: python environment (open cmd and type : pip install module)
 
 # Example: pip install pandas
-
 # B: R environment (install and load reticulate library in R)
-
 install.packages('reticulate')
-
 library(reticulate)
-
 #! install pandas by py_install( )
-
 # Example: 
 py_install("pandas")
 #---------------------------------------------------
 # Step4: Writing Python and R code together
-
-
 # reticulate is a library for writing Python code in R
 #Open Rstudio
 #install.packages('reticulate')
